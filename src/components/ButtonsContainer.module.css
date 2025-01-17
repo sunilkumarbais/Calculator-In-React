@@ -1,0 +1,25 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px 20px;
+  position: relative;
+}
+
+.btnContainer button {
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.btnContainer button:hover{
+  background: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 25px;
+}
